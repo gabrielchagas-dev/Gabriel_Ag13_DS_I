@@ -1,0 +1,9 @@
+ENTREGA — GABRIEL / AGENDA 13
+
+Extraia o ZIP inteiro e abra portal.html para conferir.
+Envie Gabriel_Ag13_DS_I.zip no fichário e inclua o link:
+https://github.com/gabrielchagas-dev/Gabriel_Ag13_DS_I
+
+O registro_IA.txt documenta a assistência real de IA.
+Como o modelo de documento da escola não foi disponibilizado,
+confira se o tutor exige outro formato para esse registro.

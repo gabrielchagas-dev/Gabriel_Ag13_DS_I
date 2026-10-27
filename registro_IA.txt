@@ -1,0 +1,55 @@
+REGISTRO DE ORIENTAÇÃO COM IA — AGENDA 13
+Aluno: Gabriel das Chagas Silva
+Componente: Desenvolvimento de Sistemas I
+Tema: Meu Portal de Entretenimento Digital
+Data: 27/10/2026
+
+CONTEXTO E AUTORIA
+O aluno enviou o enunciado e solicitou: “faz e me manda”. A IA gerou
+os arquivos e as orientações abaixo nesta conversa. Este documento é uma
+síntese técnica da assistência prestada, não uma transcrição de três
+interações separadas nem uma declaração de desenvolvimento independente.
+O modelo de documento mencionado no enunciado não foi disponibilizado;
+por isso, este registro usa uma organização textual própria.
+
+ETAPA 1 — ESTRUTURA HTML
+Questão proposta no enunciado: “IA, revise minha estrutura HTML. Estou
+usando corretamente as tags <div>, <h1> e <img>?”
+Orientação da IA: usar um h1 para o título principal e h2 para as três
+seções. Div organiza grupos sem significado semântico próprio; section
+identifica cada área temática. Cada img deve ter src válido e alt descritivo.
+Aplicação: portal.html tem header, nav, main e footer; as três section
+ficam dentro de div#conteudo. Há duas imagens por seção, com textos
+alternativos, dimensões e legendas. As imagens locais abrem sem internet.
+
+ETAPA 2 — CSS INTERNO E EXTERNO
+Questão proposta no enunciado: “IA, como posso definir estilos diferentes
+para cada seção usando classes e IDs?”
+Orientação da IA: classes reutilizam estilos e IDs identificam elementos
+únicos. Separar as regras compartilhadas facilita a manutenção.
+Aplicação: .titulo-secao padroniza títulos e .fonte-imagem padroniza os
+créditos das imagens. #filmes, #musica e #games definem cores distintas
+por meio da variável --destaque. estilo.css contém as regras principais;
+o style no head personaliza .selo-agenda. O parágrafo de chamada usa CSS
+inline. reset.css é carregado antes de estilo.css.
+
+ETAPA 3 — FLEXBOX
+Questão proposta no enunciado: “IA, me ajude a configurar o layout
+flexível com três colunas ajustáveis.”
+Orientação da IA: aplicar display: flex no contêiner, gap para espaçamento
+e flex-wrap: wrap para permitir quebra. Nos filhos, flex: 1 1 300px
+permite crescer e encolher a partir de uma largura-base.
+Aplicação: #conteudo organiza as três seções lado a lado em telas largas.
+Em telas menores as colunas quebram de linha. Até 680px, cada seção
+recebe flex-basis: 100% para facilitar a leitura no celular.
+
+PONTOS PARA REFLEXÃO DO ALUNO
+Antes de entregar, abrir a página e conferir o resultado. Personalizar os
+textos de preferência, explicar a diferença entre classe e ID e testar a
+largura da janela. Esses passos devem ser realizados pelo aluno; este
+registro não afirma que já foram realizados por ele.
+
+FONTES DAS ILUSTRAÇÕES
+Seis ilustrações SVG locais criadas pela IA por código para este projeto.
+Reset CSS: adaptação do modelo de Eric Meyer, v2.0 (domínio público):
+https://meyerweb.com/eric/tools/css/reset/

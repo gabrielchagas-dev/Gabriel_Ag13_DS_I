@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal de entretenimento digital de Gabriel: filmes, séries, música, podcasts, games e tecnologia.">
+  <title>Meu Portal de Entretenimento Digital | Gabriel</title>
+  <!-- O reset vem antes do CSS principal para nao sobrescrever o design. -->
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="estilo.css">
+  <style>
+    /* CSS interno: personaliza o destaque que aparece na abertura. */
+    .selo-agenda { display: inline-block; border: 1px solid #515b40; border-radius: 30px; padding: 5px 12px; color: #c7eda3; font-size: 12px; margin-bottom: 18px; }
+  </style>
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="container barra">
+      <a class="marca" href="#inicio">PLAY<span>VERSO</span></a>
+      <nav aria-label="Seções do portal"><a href="#filmes">Filmes e séries</a><a href="#musica">Música e podcasts</a><a href="#games">Games e tecnologia</a></nav>
+    </div>
+  </header>
+  <main class="container" id="inicio">
+    <div class="abertura">
+      <span class="selo-agenda">GABRIEL DAS CHAGAS SILVA / AGENDA 13</span>
+      <p class="eyebrow">Cultura digital em boa companhia</p>
+      <h1>Meu Portal de<br>Entretenimento Digital</h1>
+      <p class="introducao">Um espaço para explorar histórias, descobrir novos sons e mergulhar no universo dos games e da tecnologia.</p>
+      <!-- CSS inline solicitado: estilo aplicado diretamente neste paragrafo. -->
+      <p style="color: #b7f572; font-size: 13px; margin-top: 18px;">Escolha sua próxima descoberta ↓</p>
+    </div>
+    <div id="conteudo">
+<section class="secao" id="filmes" aria-labelledby="titulo-filmes">
+        <p class="numero">01 / PARA ASSISTIR</p><h2 class="titulo-secao" id="titulo-filmes">Filmes e Séries</h2>
+        <p class="resumo">Histórias que transportam a gente para outros mundos. Do cinema às maratonas, sempre existe uma nova narrativa para descobrir.</p>
+        <figure>
+          <img class="imagem" src="imagens/cinema.svg" alt="Ilustração de um planeta e sua órbita em um céu estrelado." width="480" height="300">
+          <figcaption><h3>Uma viagem pela ficção</h3><p class="descricao">Gosto de histórias de ficção científica porque elas misturam aventura e imaginação. Mundos distantes também ajudam a pensar sobre escolhas e tecnologia.</p><p class="fonte-imagem">Fonte: ilustração SVG criada com auxílio de IA para esta atividade.</p></figcaption>
+        </figure>
+<figure>
+          <img class="imagem" src="imagens/series.svg" alt="Ilustração de uma tela com botão de reprodução e cartões de episódios." width="480" height="300">
+          <figcaption><h3>Só mais um episódio</h3><p class="descricao">Uma boa série desenvolve personagens aos poucos. Prefiro acompanhar cada episódio com atenção e conversar sobre a história sem revelar spoilers.</p><p class="fonte-imagem">Fonte: ilustração SVG criada com auxílio de IA para esta atividade.</p></figcaption>
+        </figure>
+      </section>
+<section class="secao" id="musica" aria-labelledby="titulo-musica">
+        <p class="numero">02 / PARA OUVIR</p><h2 class="titulo-secao" id="titulo-musica">Música e Podcasts</h2>
+        <p class="resumo">Sons para mudar o ritmo do dia e conversas para conhecer ideias novas.</p>
+        <figure>
+          <img class="imagem" src="imagens/musica.svg" alt="Ilustração de um disco de vinil sobre uma capa laranja." width="480" height="300">
+          <figcaption><h3>A trilha do meu dia</h3><p class="descricao">Uma playlist pode acompanhar momentos de descanso e lazer. Para estudar, gosto da ideia de escolher músicas instrumentais com volume confortável.</p><p class="fonte-imagem">Fonte: ilustração SVG criada com auxílio de IA para esta atividade.</p></figcaption>
+        </figure>
+<figure>
+          <img class="imagem" src="imagens/podcast.svg" alt="Ilustração de um microfone cercado por ondas sonoras." width="480" height="300">
+          <figcaption><h3>Conversas que inspiram</h3><p class="descricao">Podcasts permitem explorar assuntos como cultura e criatividade. Acho interessante ouvir opiniões diferentes e procurar as fontes quando aparece uma informação nova.</p><p class="fonte-imagem">Fonte: ilustração SVG criada com auxílio de IA para esta atividade.</p></figcaption>
+        </figure>
+      </section>
+<section class="secao" id="games" aria-labelledby="titulo-games">
+        <p class="numero">03 / PARA EXPLORAR</p><h2 class="titulo-secao" id="titulo-games">Games e Tecnologia</h2>
+        <p class="resumo">Desafios, criatividade e descobertas no universo digital.</p>
+        <figure>
+          <img class="imagem" src="imagens/controle.svg" alt="Ilustração de um controle de videogame com botões e direcional." width="480" height="300">
+          <figcaption><h3>Jogar também é criar</h3><p class="descricao">Games de aventura e quebra-cabeças convidam a explorar e resolver desafios. Jogar com amigos também pode ser um jeito divertido de cooperar.</p><p class="fonte-imagem">Fonte: ilustração SVG criada com auxílio de IA para esta atividade.</p></figcaption>
+        </figure>
+<figure>
+          <img class="imagem" src="imagens/tecnologia.svg" alt="Ilustração de um notebook com símbolos de código na tela." width="480" height="300">
+          <figcaption><h3>Por trás das telas</h3><p class="descricao">Entender como uma página funciona deixa a tecnologia mais interessante. HTML organiza o conteúdo e CSS transforma essa estrutura em uma experiência visual.</p><p class="fonte-imagem">Fonte: ilustração SVG criada com auxílio de IA para esta atividade.</p></figcaption>
+        </figure>
+      </section>
+    </div>
+  </main>
+  <footer class="rodape"><div class="container">Gabriel das Chagas Silva • Desenvolvimento de Sistemas I • Agenda 13<br>Projeto educacional — HTML e CSS, com orientação técnica de IA.</div></footer>
+</body>
+</html>

@@ -1,0 +1,10 @@
+/* Reset baseado no modelo de Eric Meyer (v2.0, dominio publico).
+   Remove estilos padrao para manter uma base consistente entre navegadores. */
+html, body, div, span, h1, h2, h3, p, a, img, ol, ul, li,
+header, footer, main, nav, section, article, figure, figcaption {
+  margin: 0; padding: 0; border: 0; font-size: 100%;
+  font: inherit; vertical-align: baseline;
+}
+header, footer, main, nav, section, article, figure, figcaption { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
